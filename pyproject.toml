@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sally-astra"
+version = "0.1.0"
+description = "Astrodynamics and mission analysis toolkit for orbital data center feasibility studies"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Sally", email = "queeniencoffee@gmail.com" }
+]
+
+[project.urls]
+Repository = "https://github.com/queeniencoffee/Astrodynamics"
+Documentation = "https://github.com/yourusername//Astrodynamics/UserGuide"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# -------------------------
+# Formatting & Linting
+# -------------------------
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
+ignore = ["E203", "W503"]
+
+# -------------------------
+# Testing
+# -------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
