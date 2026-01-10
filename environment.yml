@@ -1,0 +1,43 @@
+name: sally-astra
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # ---- Python ----
+  - python=3.11
+
+  # ---- Core Scientific Stack ----
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+
+  # ---- Astrodynamics ----
+  - astropy
+  - poliastro
+
+  # ---- Visualization & 3D ----
+  - plotly
+  - pyvista
+  - vtk
+
+  # ---- GUI ----
+  - pyside6
+
+  # ---- Notebooks ----
+  - jupyterlab
+
+  # ---- Video & Animation ----
+  - ffmpeg
+
+  # ---- Dev & Quality ----
+  - pytest
+  - black
+  - ruff
+
+  # ---- pip-only packages ----
+  - pip
+  - pip:
+      - manim
