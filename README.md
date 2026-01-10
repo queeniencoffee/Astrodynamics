@@ -1,6 +1,6 @@
-# "Sally Via Stellaris" Astrodynamics Toolkit 
+# "Sally Astra" Astrodynamics Toolkit 
 
-<b> "Sally Via Stellaris" Astro Toolkit </b> is a Python-based astrodynamics and mission analysis platform developed to support <b> the evaluation and feasibility of space-based / AI data centers</b>. The project integrates orbital mechanics, space environment modeling, and system-level trade studies to evaluate how orbital selection impacts power availability, thermal behavior, communications access, and long-term operability. 
+<b> "Sally Astra" Astro Toolkit </b> is a Python-based astrodynamics and mission analysis platform developed to support <b> the evaluation and feasibility of space-based / AI data centers</b>. The project integrates orbital mechanics, space environment modeling, and system-level trade studies to evaluate how orbital selection impacts power availability, thermal behavior, communications access, and long-term operability. 
 
 Built using modern scientific Python libraries, the toolkit supports high-fidelity orbit propagation, eclipse and coverage analysis, parametric trade studies, and interactive visualization. A modular architecture separates core physics models from mission logic and a graphical user interface, enabling reproducible model-and-simulation workflows and clear engineering traceability.
 
@@ -11,7 +11,7 @@ The project serves both as a learning framework for applied astrodynamics and as
 
 
 
-## 📦 Sally Via Stellaris Astrodynamics Toolkit — Recommended Structure
+## 📦 Sally Astra Astrodynamics Toolkit — Recommended Structure
 
 ```
 astro-project/
