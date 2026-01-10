@@ -14,7 +14,7 @@ The project serves both as a learning framework for applied astrodynamics and as
 ## 📦 Sally Astra Astrodynamics Toolkit — Recommended Structure
 
 ```
-astro-project/
+sally-astra/
 │
 ├── README.md
 ├── environment.yml
